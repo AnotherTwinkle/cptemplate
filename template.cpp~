@@ -13,7 +13,7 @@ typedef vector<pll> vpll;
 #define returncout(s) cout << ((s)) << endl; return
 
 #define all(v) (v).begin(), (v).end()
-#define sz(x) (int)(x).size()
+#define size(x) (int)(x).size()
 #define ff first
 #define ss second
 
@@ -21,7 +21,7 @@ const long long llzero = 0;
 
 void setIO(string name = "") {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    if(sz(name)){
+    if(size(name)){
         freopen((name+".in").c_str(), "r", stdin);
         freopen((name+".out").c_str(), "w", stdout);
     }
